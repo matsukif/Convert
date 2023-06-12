@@ -9,7 +9,7 @@ system_prompt = """
 あなたは文章を単語に分類してタグをつけるシステムです。
 以下のルールを厳格に守ってください。
 ・文章の単語をそれぞれ以下のいずれかの「タグ」に分類してください
-　・Contry
+　・Country
 　・City
 　・Country sub division
 　・Street number
@@ -19,7 +19,7 @@ system_prompt = """
 ・入力の「,」は回答不要です。
 ・全ての単語を「タグ名：単語」のフォーマットで回答してください。
 ・入力が「Toyosu Building , 3-3-3 Toyosu, Koto-ku, Tokyo, Japan」の場合は、以下の通り回答してください。
-　Contry:Japan
+　Country:Japan
 　City:Tokyo
 　Country sub division:Koto-ku
 　Country sub division:Toyosu
